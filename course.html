@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title>University</title>
+</head>
+<body>
+	<section class="our-courses">
+	<nav>
+		<a href="index.html"><img src="images/logo.jpg"></a>
+		<div class="nav-links" id="nav-links">
+			<i class="fa fa-arrow-circle-right" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="course.html">COURSES</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+	<div class="text-box">
+	<h1 class="about-h1">Our Courses</h1>
+	</div>
+
+	</section>
+	<section class="course">
+	
+	<h1>Courses we offer</h1>
+	<p>Leading University fueled with passion to make the world a better place to Live.</p>
+
+	<div class="row">
+		<div class="course-col">
+			<h3>Intermediate</h3><br>
+			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+		</div>
+		<div class="course-col">
+			<h3>Degree</h3><br>
+			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+		</div>
+		<div class="course-col">
+			<h3>PostGrad</h3><br>
+			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+		</div>
+	</div>
+</section>
+
+<!-- --------------facilities-------------- -->
+
+<section class="facilities">
+	<h1>Our Facilities</h1><br>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br><br>
+	<div class="row">
+		<div class="facilitites-col">
+			<img src="images/library.jpg">
+		</div>
+		<div class="facilitites-col">
+			<h2>World Class Library</h2><br>
+			<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu turpis eget risus facilisis rhoncus egestas quis leo. Nulla mattis felis et iaculis condimentum. Integer porta, justo ac gravida rutrum, magna lorem lacinia neque, non rutrum mi libero ut nisi. Mauris tempus turpis quis posuere suscipit. Aliquam nec volutpat nulla, nec vehicula velit. Aenean consequat sodales tortor, sed gravida sem lobortis eu. Vestibulum tellus purus, accumsan vel volutpat eget, varius sed leo. Maecenas pretium vehicula augue sed consequat. Cras gravida tincidunt diam vitae convallis. Vivamus eleifend mi nunc, nec elementum nunc malesuada quis.</p>
+		</div>
+</section>
+
+<section class="facilities">
+	<div class="row">
+		<div class="facilitites-col">
+			<h2>Sports Arenas</h2><br>
+			<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu turpis eget risus facilisis rhoncus egestas quis leo. Nulla mattis felis et iaculis condimentum. Integer porta, justo ac gravida rutrum, magna lorem lacinia neque, non rutrum mi libero ut nisi. Mauris tempus turpis quis posuere suscipit. Aliquam nec volutpat nulla, nec vehicula velit. Aenean consequat sodales tortor, sed gravida sem lobortis eu. Vestibulum tellus purus, accumsan vel volutpat eget, varius sed leo. Maecenas pretium vehicula augue sed consequat. Cras gravida tincidunt diam vitae convallis. Vivamus eleifend mi nunc, nec elementum nunc malesuada quis.</p>
+		</div>
+		<div class="facilitites-col">
+			<img src="images/basketball.jpg">
+		</div>
+	</div>
+</section>
+<br><br>
+
+
+
+
+
+
+<!-- -----------footer---------- -->
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu turpis eget risus facilisis rhoncus egestas quis leo.<br> Nulla mattis felis et iaculis condimentum. Integer porta, justo ac gravida rutrum.</p><br>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<br>
+	<p>Made with <i class="fa fa-code"></i> by Ganesh Suryawanshi</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT FOR TOGGLE MENU -->
+
+	<script type="text/javascript">
+		var navlinks = document.getElementById("nav-links")
+		function showMenu(){
+			navlinks.style.right = "0";
+			// transition = 0.3s all;
+		}
+		function hideMenu(){
+			navlinks.style.right = "-200px";
+		}
+	</script>
+</body>
+</html>
